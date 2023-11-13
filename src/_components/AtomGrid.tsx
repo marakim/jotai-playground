@@ -1,5 +1,5 @@
 import { useAtom, useAtomValue } from "jotai";
-import { colAtom, rowAtom } from "~/_atoms/grid";
+import { colAtom, rowAtom } from "~/_atoms/gridAtom";
 
 export interface AtomGridProps {
     rows: number;
