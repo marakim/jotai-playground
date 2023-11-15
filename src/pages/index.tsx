@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { AtomGrid } from "~/_components/AtomGrid";
+import { StateGrid } from "~/_components/StateGrid";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
             Jotai Playground
           </h1>
-          <AtomGrid rows={4} cols={4} />
+          <StateGrid rows={4} cols={4} />
         </div>
       </main>
     </>
